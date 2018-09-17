@@ -1,0 +1,14 @@
+## This is my bashrc.
+
+## make the prompt useful
+GREEN="\[$(tput setaf 2)\]"
+BLUE="\[$(tput setaf 4)\]"
+RESET="\[$(tput sgr0)\]"
+
+export PS1="\n[ ${GREEN}\u${BLUE}@${GREEN}\h${RESET} ]: \w\n \$ > "
+export PS2=">"
+
+## Aliases
+alias ll='ls -l --color=auto --block-size=M'
+alias la='ls -lA --color=auto --block-size=M'
+alias c=clear
