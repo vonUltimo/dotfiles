@@ -36,6 +36,6 @@ echo "done"
 # creating symlinks
 echo "creating sylinks"
 ln -s $dir/bash/bashrc ~/.bashrc
-ln -s $dir/vim/vimrc ~/.vimrr
+ln -s $dir/vim/vimrc ~/.vimrc
 ln -s $dir/git/gitconfig ~/.gitconfig
 echo "done"
